@@ -588,3 +588,36 @@ p{
     .svg-wrapper-list3 {
         margin-left: 950px;
     }
+/* HELP SECTION STYLES */
+.help-section {
+    background:var(--bg-color);
+}
+.text-wrapper-help {
+    width: 571px;
+    padding:117px 0;
+    margin-left: 435px;
+
+}
+.help-wrapper__titile {
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color:var(--white-color);
+    margin-bottom: 15px;
+}
+.help-wrapper__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color:var(--white-color);
+    margin-bottom: 22px;
+}
+.card-wrapper-link {
+    margin-left: 200px;
+    text-align: center;
+    color:#fff;
+    background:var(--read-color);
+}
+.card-wrapper-span {
+    background:#fff;
+}
