@@ -71,7 +71,7 @@ img {
     --read-color:#000;
 }
 .light-btn{
-    --text-color:#c0c0c0;
+    --text-color:#555;
     --hover-color:#00ffff;
     --bg-color:#fff;
     --black-color:#000;
@@ -620,4 +620,69 @@ p{
 }
 .card-wrapper-span {
     background:#fff;
+}
+
+/* FOOTER SECTION STYLES */
+.footer{
+    background:var(--bg-color);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.footer-logo__link path{
+    fill: var(--white-color);
+}
+.footer-section{
+padding-top: 100px;
+display: flex;
+align-items:center;
+}
+
+.footer-logo-wrapper {
+    width: 440px;
+    
+}
+.footer-logo__link {
+    width: 128px;
+    height:31px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.footer-logo-link__title {
+    font-size: 13px;
+    line-height: 20px;
+    color:var(--text-color);
+}
+.lists-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 270px;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-list-item {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer-list-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-list-item-link {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color:var(--text-color);
+    text-decoration: none;
+}
+.footer-list2{
+    flex-direction: column;
+    list-style: none;
+    margin-left: 55px;
+}
+.footer-hr{
+    margin-top: 36px;
+    border: solid var(--white-color);
+    width: 1168px;
 }
