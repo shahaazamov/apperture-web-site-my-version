@@ -57,7 +57,7 @@ img {
     --white-color:#fff;
     --whit-color:#181818;
     --border-color:#fff;
-    --read-color:#fff;
+    --read-color:#000;
 
 }
 .dark-mode{
@@ -78,7 +78,7 @@ img {
     --white-color:#000;
     --whit-color:#fff;
     --border-color:#000;
-    --read-color:#fff;
+    --read-color:#000;
 
 }
 /* CONTAINER SYTLES */
@@ -446,12 +446,12 @@ p{
         text-align:end;
         padding: 11px 40px;
         border-radius:14px;
-        color:#000;
+        color: #fff;
         background-color:var(--read-color);
         text-decoration: none;
         position:relative;
     }
-    .card-wrapper-span{
+    .card-wrapper-span2{
         position: absolute;
         width:20px;
         height: 20px;
@@ -542,6 +542,7 @@ p{
         display: flex;
         align-items:center;
         padding-top: 111px;
+        padding-bottom: 169px;
     }
     .parners-list {
         display: flex;
@@ -556,4 +557,34 @@ p{
     }
     .partners-list-item path{
         fill: var(--white-color);
+    }
+    /*  bottom img section styles */
+
+    .bottom-img-section {
+        display: flex;
+        align-items:center;
+        height: 600px;
+        background:url(../images/bottom\ bg\ image.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .bottom-wrapper {
+        width:241px;
+        padding-top: 206px;
+        margin-left: 950px;
+    }
+    .bottom-wrapper__title {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        color:#fff;
+        margin-bottom: 8px;
+    }
+    .bottom-wrapper-text {
+        font-size: 14px;
+        line-height: 20px;
+        color:#c0c0c0;
+    }
+    .svg-wrapper-list3 {
+        margin-left: 950px;
     }
