@@ -912,3 +912,7 @@ display: flex;
     text-decoration: none;
     margin-left: 20px;
 }
+.footer-svg-img path{
+    fill: var(--white-color);
+    
+}
