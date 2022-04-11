@@ -44,6 +44,8 @@ body {
     line-height: 20px;
     color: #000;
     user-select: none;
+    background-attachment: scroll;
+    scroll-behavior: smooth;
 }
 img {
     max-width: 100%;
@@ -180,6 +182,7 @@ img {
     background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),  url(../images/bg\ image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:smooth;
 }
 .text-wrapper {
     padding-top: 395px;
@@ -676,6 +679,9 @@ align-items:center;
     color:var(--text-color);
     text-decoration: none;
 }
+.footer-list-item-link:hover{
+    color:var(--hover-color);
+}
 .footer-list2{
     flex-direction: column;
     list-style: none;
@@ -685,4 +691,84 @@ align-items:center;
     margin-top: 36px;
     border: solid var(--white-color);
     width: 1168px;
+}
+
+
+.second-hr-section {
+    padding-top:36px;
+    
+}
+.hr-flexer{
+    display: flex;
+    align-items:center;
+}
+.text-section-wrapper {
+    width:280px;
+    margin-left: 13px;
+}
+.hr-title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color:var(--white-color);
+}
+.hr-wrapper-tite {
+    font-size: 13px;
+    line-height: 20px;
+    color:var(--text-color);
+}
+.card-wrapper-link3{
+    margin-left: 860px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-align:end;
+    padding: 11px ;
+    padding-left: 300px;
+    border-radius:14px;
+    color: #fff;
+    background-color:var(--white-color);
+    text-decoration: none;
+    position:relative;
+    width:100%;
+    max-width: 458px;
+    top: -36px;
+
+}
+.card-wrapper-span3 {
+    width:100%;
+    max-width:458px;
+    position: absolute;
+    width:31.5px;
+    height: 20px;
+    background-color:var(--whit-color);
+    border-radius:30%;
+    top:10;
+    left:270;
+}
+.main-footer {
+    margin-top: 56px;
+    margin-bottom: 100px;
+}
+.main-footer-title{
+    font-size: 14px;
+    line-height: 20px;
+    color:var(--text-color);
+}
+.footer-flexer {
+    display: flex;
+    align-items:center;
+}
+.svg-imgages-wrapper{
+    flex-direction: row;
+    margin-top: -10px;
+    margin-left: 920px;
+
+}
+.footer-svg-img {
+    width:24px;
+    height:24px;
+    text-decoration: none;
+    margin-left: 20px;
 }
